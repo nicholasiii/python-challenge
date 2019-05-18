@@ -56,3 +56,4 @@ file.write("Greatest Monthly Increase:  "+greatestincmonth+"   "+str(greatestinc
 file.write("Greatest Monthly Decrease:   "+greatestdecmonth+"    "+str(greatestdec)+"\n")
 
 file.close() 
+#format(khanpercent, "%")

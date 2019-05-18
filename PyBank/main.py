@@ -19,7 +19,6 @@ with open(budget_csv_path, newline='') as csvfile:
 
     # Read the header row first (skip this step if there is now header)
     csv_header=next(csvfile)
-    print(f"CSV Header: {csv_header}")
 
 #months as int, profit/loss, average change in profit/loss, greatestincrease, greatest decrease
     for row in csvreader:
